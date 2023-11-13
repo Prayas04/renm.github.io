@@ -1,0 +1,31 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0)),url("https://devimages-cdn.apple.com/wwdc-services/articles/images/12D7D38E-A4BF-4C51-B958-4C40DC1E5BF0/2048.jpeg");
+    background-repeat: no-repeat; 
+}
+
+* {
+    color: white;
+}
+h1 {
+    font-size: 30px;
+    color: red;
+    font-style: italic;
+    font-weight: 200;
+    border: solid black;
+}
+table {
+    border-collapse: separate;
+    width: 80%;
+    border: 10px solid;
+    border-color: brown forestgreen;
+    border-spacing: 10px;
+    margin-left: 10%;
+
+}
+th, td {
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 20px;
+}

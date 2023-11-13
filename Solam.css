@@ -1,0 +1,24 @@
+body {
+    background-image: url("https://cdn-media-2.freecodecamp.org/w1280/5f9c9cfc740569d1a4ca3543.jpg");
+    width: 100vh;
+    background-size: cover;
+}
+header {
+    color:beige;
+    font-weight: 300;
+    margin-left: 20vh;
+    font-size: 70px;
+}
+#explain {
+    color:white;
+    width: 100%;
+    padding: auto;
+    margin: 30px 10px 20px 20%;
+    font-size: 22px;
+}
+#explain #p2 {
+    font-size: 40px;
+}
+#explain #p3 {
+    font-size: 40px;
+}

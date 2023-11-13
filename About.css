@@ -1,0 +1,95 @@
+*{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/156/248/large_2x/beige-gradient-blur-background-free-photo.jpg");
+}
+
+header{
+   
+    background-color:aliceblue;
+    color:black;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    
+    height: 20px;
+}
+
+
+
+
+main{
+    margin:2px
+}
+
+div{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 10px;
+    border-color: black;
+    margin:auto;
+}
+.heading{
+    border: 10px outset ;
+    border-radius: 4%;
+    background-color: rgb(156, 217, 185);
+    padding:0px;
+    text-align: center;
+    margin: 5px;
+}
+   
+
+.paragraph{
+    border: 5px outset rgb(185, 243, 185);
+   border-radius: 3%;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: large;
+    
+
+}
+
+
+
+.h1{
+    border: 5px outset ;
+    background-color: rgb(156, 217, 185);
+    padding:0px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.image {
+    margin: 3px;
+    text-align: center;
+}
+* img {
+    border-radius: 20px;
+}
+
+
+
+#p1{
+    
+    text-align: center;
+    margin: 3px;
+    margin-top: 100px;
+    font-weight:bold;
+}
+  
+
+#image1{
+    border: 5px outset rgb(83, 191, 61);
+    background-color: lightblue;
+    text-align: center;
+    margin: 3px;
+}
+
+#h1{
+
+    padding: auto;
+
+}
+

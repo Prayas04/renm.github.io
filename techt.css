@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url("https://getwallpapers.com/wallpaper/full/e/5/7/212771.jpg");
+}
+div:nth-of-type(odd) {
+    font-size: 30px;
+    color: white;
+    padding: 50px;
+    margin-left: 40%;
+}
+div:nth-of-type(even) {
+    font-size: 30px;
+    color: white;
+    padding: 50px;
+    margin-right: 40%;
+}
+div:nth-of-type(odd) h1 {
+    padding: 40px;
+    text-align: right;
+}
+div:nth-of-type(even) h1 {
+    padding: 40px;
+    text-align: left;
+}

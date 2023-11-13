@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding-bottom: 0px;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)), url("https://static.vecteezy.com/system/resources/previews/006/032/472/original/abstract-green-overlay-background-with-square-shape-can-be-used-for-banner-sale-wallpaper-for-brochure-landing-page-free-vector.jpg");
+}
+.bg {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)), url("https://static.vecteezy.com/system/resources/previews/006/032/472/original/abstract-green-overlay-background-with-square-shape-can-be-used-for-banner-sale-wallpaper-for-brochure-landing-page-free-vector.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.navbar {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0;
+
+}
+.navbar ul li {
+    color: white;
+    opacity: 0.9;
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+    position: relative;
+    
+}
+.navbar ul {
+    margin-left: 70%;
+    margin-bottom: auto;
+}
+
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    border-radius: 2px;
+    width: 0;
+    background: lightseagreen;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navbar ul li:hover:after {
+    width: 100%;
+}
+.content {
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    opacity: 0.8;
+}
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-top: 10px;
+    color:bisque;
+}
+.content p {
+    font-weight: 100;
+    line-height: 50px;
+    font-size: 20px;
+}
+.he1 {
+    width: 100%;
+    padding: 50px 0;
+    font-size: 20px;
+}
+.resource {
+    text-align: center;
+    padding-bottom: 70px;
+    color: bisque;
+}
+.resource h1 {
+    color:rgb(5, 45, 52,);
+    font-size: 20px;
+}
+.resource p {
+    line-height: 2em;
+    font-size: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.info1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.featurebox {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.features {
+    flex-basis: 50%;
+}
+.featuresimg {
+    flex-basis: 50%;
+    margin: auto;
+}
+.featureimg img {
+    width:70%;
+    border-radius: 10px;
+    filter: drop-shadow(5px 0 10px grey);
+}
+.features h1 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #009688;
+}
+.features-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feature-icon .fa {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #a5fff6;
+}
+.feature-text p {
+    padding: 0 20px;
+    text-align: initial;
+    color: rgb(189, 189, 78);
+}
+.footer {
+    padding: 100px 0 0px;
+    background: grey;
+    height: 50px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+.content p {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contactUS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container1">
+        <h1>Connect with Us</h1>
+        <p>We would love to respond to your queries. Feel free to get in touch with us.</p>
+        <div class="contactbox">
+            <div class="contact-left">
+                <h3>Give your Feedback or Reviews</h3>
+                <form method="get" action='submit.html'>
+                    <fieldset>
+                      <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+                      <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+                      <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+                    </fieldset>
+                    <fieldset>
+                      <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
+                      <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
+                    </fieldset>
+                    <fieldset>
+                      <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+                      <label for="referrer">How did you hear about us?
+                        <select id="referrer" name="referrer">
+                          <option value="">(select one)</option>
+                          <option value="1">Friend</option>
+                          <option value="2">Ads</option>
+                          <option value="3">Any Institution</option>
+                          <option value="4">Other</option>
+                        </select>
+                      </label>
+                      <label for="bio">Write here:
+                        <textarea id="bio" name="bio" rows="6" cols="30" placeholder="Write your review or suggestions or both..."></textarea>
+                      </label>
+                    </fieldset>
+                    <input type="submit" value="Submit" />
+                  </form>
+            </div>
+            <div class="contact-right">
+                <h1>Developers:<a href="devdetails.html"><i class="fa fa-address-card"></i></a></h1>
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td><i class="fa fa-envelope"></i> Email</td>
+                        <td>abc@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-phone"></i> Phone</td>
+                        <td>+91 0123456789</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa fa-map-marker"></i> Address</td>
+                        <td>213, zyz, India</td>
+                    </tr>
+                </table>
+                <p>Follow us on:</p>
+                <div class="social">
+                  <i class="fa fa-instagram"></i>
+                  <i class="fa fa-facebook"></i>
+                  <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
